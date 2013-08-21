@@ -81,7 +81,7 @@ public class Request {
     }
 
     public Request header(String key, String value) {
-    	params.put(key, value);
+    	headers.put(key, value);
     	return this;
     }
     
